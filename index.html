@@ -12,45 +12,47 @@
     <link rel="shortcut icon" href="assests/news.png" type="image/x-icon" />
   </head>
   <body>
-    <nav>
-      <div class="nav-container">
-        <div class="nav-items">
-          <a href="#" onclick="reload()">
-            <img src="assests/news.png" alt="logo" />
-          </a>
-          <div class="nav-links">
-            <h1>Headlines | Announcement</h1>
-          </div>
-          <div class="search-bar">
-            <input class="news-input" type="text" placeholder="e.g Science" />
-            <button class="search-btn" id="search-btn">Search</button>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <main>
-      <div class="card-container" id="cards-container"></div>
-      <template id="template-news-card">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="https://via.placeholder.com/400x200"
-              alt=""
-              id="news-img"
-            />
-          </div>
-          <div class="card-content">
-            <h3 id="news-title">This is the Title</h3>
-            <h6 id="news-source">End Game</h6>
-            <p id="news-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              dignissimos delectus accusantium aspernatur eligendi laboriosam
-              ab, impedit voluptates minus molestias!
-            </p>
+    <div id="wrapper">
+      <nav>
+        <div class="nav-container">
+          <div class="nav-items">
+            <a href="#" onclick="reload()">
+              <img src="assests/news.png" alt="logo" />
+            </a>
+            <div class="nav-links">
+              <h1>Headlines | Announcement</h1>
+            </div>
+            <div class="search-bar">
+              <input class="news-input" type="text" placeholder="e.g Science" />
+              <button class="search-btn" id="search-btn">Search</button>
+            </div>
           </div>
         </div>
-      </template>
-    </main>
+      </nav>
+      <main>
+        <div class="card-container" id="cards-container"></div>
+        <template id="template-news-card">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt=""
+                id="news-img"
+              />
+            </div>
+            <div class="card-content">
+              <h3 id="news-title">This is the Title</h3>
+              <h6 id="news-source">End Game</h6>
+              <p id="news-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                dignissimos delectus accusantium aspernatur eligendi laboriosam
+                ab, impedit voluptates minus molestias!
+              </p>
+            </div>
+          </div>
+        </template>
+      </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
