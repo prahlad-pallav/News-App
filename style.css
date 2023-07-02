@@ -32,7 +32,6 @@ body{
 
 a{
     text-decoration: none;
-
 }
 
 ul{
@@ -122,10 +121,15 @@ main{
     transform: scale(1.05);
 }
 
+.card-header{
+    height: 200px;
+    width: 340px;
+}
+
 .card-header img{
     height: 200px;
+    width: 340px;
     overflow: hidden;
-    object-fit: fill;
 }
 
 .card-content h3{
