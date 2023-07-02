@@ -1,1 +1,2 @@
-# News-App
+
+Deployment: https://newsapp-prahlad.netlify.app/
